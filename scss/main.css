@@ -12720,7 +12720,7 @@ mark, .mark {
 }
 
 .wordmark-wrapper {
-  padding-top: 1rem;
+  padding-top: 1.2rem;
 }
 
 @media (orientation: landscape) {
