@@ -12715,10 +12715,6 @@ mark, .mark {
   margin-left: auto;
 }
 
-.content-page {
-  margin: 0 0 10vh 0;
-}
-
 .card {
   max-width: 300px;
 }
@@ -12740,10 +12736,10 @@ mark, .mark {
 @media (min-width: 576px) {
   .container-custom {
     width: 60%;
-    max-width: 380px;
+    max-width: 360px;
   }
   .card {
-    max-width: 380px;
+    max-width: 360px;
   }
 }
 @media (min-width: 768px) {
@@ -12806,6 +12802,9 @@ mark, .mark {
   }
   .card-body {
     padding-left: 0;
+  }
+  .content-page {
+    margin: 0 0 5vh 0;
   }
 }
 footer {
