@@ -30,22 +30,41 @@ mark {
 }
 
 .container-custom {
-	width: 90%;
-	max-width: 400px;
+	width: 82%;
+	max-width: 300px;
 	margin-right: auto;
 	margin-left: auto;
+}
+.card {
+	max-width: 300px;
+}
+
+.wordmark-wrapper {
+	padding-top: 1rem;
+}
+
+@media (orientation: landscape) {
+	.wordmark {
+		max-height: 8vh;
+	}
 }
 @include media-breakpoint-up(sm) {
 	.container-custom {
 		width: 60%;
-		max-width: 440px;
+		max-width: 380px;
+	}
+	.card {
+		max-width: 380px;
 	}
 }
 
 @include media-breakpoint-up(md) {
+	.wordmark {
+		max-width: 300px;
+	}
 	.container-custom {
 		width: 60%;
-		max-width: 540px;
+		max-width: 480px;
 	}
 	.card {
 		max-width: 480px;
@@ -72,14 +91,12 @@ mark {
 
 .wordmark {
 	pointer-events: auto;
-	max-height: 6vh;
 }
 
 .wordmark-wrapper {
 	pointer-events: none;
 	z-index: 99999;
 	height: 33%;
-	padding-top: 3rem;
 	background: rgb(0,0,0);
 	background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.68) 32%, rgba(0,0,0,0.31) 56%, rgba(0,0,0,0.08) 84%, rgba(0,0,0,0) 100%);
 	background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.68) 32%, rgba(0,0,0,0.31) 56%, rgba(0,0,0,0.08) 84%, rgba(0,0,0,0) 100%);
@@ -101,11 +118,9 @@ mark {
 }
 
 @include media-breakpoint-down(md) {
-	.wordmark-wrapper {
-		padding-top: 2rem;
-	}
-	.container-custom {
+	.content-page {
 		text-align: center;
+		padding-top: 4rem;
 	}
 	.card-body {
 		padding-left: 0;
