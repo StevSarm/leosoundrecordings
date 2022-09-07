@@ -25,6 +25,15 @@ html, body {
 	background: $body-bg;
 }
 
+body::before {
+	content: ' ';
+	position: fixed;
+	top: -1000px;
+	height: 1000px;
+	width: 100%;
+	background-color: #000;
+}
+
 mark {
 	background-color: $white;
 	font-weight: $font-weight-normal;

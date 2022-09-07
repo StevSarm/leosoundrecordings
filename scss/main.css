@@ -12704,6 +12704,15 @@ html, body {
   background: #000;
 }
 
+body::before {
+  content: " ";
+  position: fixed;
+  top: -1000px;
+  height: 1000px;
+  width: 100%;
+  background-color: #000;
+}
+
 mark, .mark {
   background-color: #fff;
   font-weight: 400;
