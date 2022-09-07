@@ -12720,7 +12720,7 @@ mark, .mark {
 }
 
 .wordmark-wrapper {
-  padding-top: 1.2rem;
+  padding-top: 1.5rem;
 }
 
 @media (orientation: landscape) {
@@ -12796,6 +12796,9 @@ mark, .mark {
 }
 
 @media (max-width: 767.98px) {
+  .wordmark {
+    padding: 0 2rem;
+  }
   .content-page {
     text-align: center;
     padding-top: 4rem;
