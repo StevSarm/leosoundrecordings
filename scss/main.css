@@ -12715,6 +12715,10 @@ mark, .mark {
   margin-left: auto;
 }
 
+.content-page {
+  margin: 0 0 10vh 0;
+}
+
 .card {
   max-width: 300px;
 }
@@ -12726,6 +12730,11 @@ mark, .mark {
 @media (orientation: landscape) {
   .wordmark {
     max-height: 8vh;
+  }
+}
+@media (orientation: portrait) {
+  .wordmark {
+    max-height: 6vh;
   }
 }
 @media (min-width: 576px) {
