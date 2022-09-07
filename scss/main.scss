@@ -35,6 +35,11 @@ mark {
 	margin-right: auto;
 	margin-left: auto;
 }
+
+.cardcontainer {
+	padding-top: 1.5rem;
+}
+
 .card {
 	max-width: 300px;
 }
@@ -74,6 +79,12 @@ mark {
 	}
 	.card {
 		max-width: 480px;
+	}
+	.content-page {
+		padding-top: 1rem;
+	}
+	.cardcontainer {
+		padding-top: .5rem;
 	}
 }
 
